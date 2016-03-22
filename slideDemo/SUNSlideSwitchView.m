@@ -43,6 +43,7 @@ const NSUInteger kTagOfRightSideButton = 999;
     _rootScrollView.showsVerticalScrollIndicator = NO;
     _rootScrollView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidth;
     _userContentOffsetX = 0;
+    
     [_rootScrollView.panGestureRecognizer addTarget:self action:@selector(scrollHandlePan:)];
     [self addSubview:_rootScrollView];
     

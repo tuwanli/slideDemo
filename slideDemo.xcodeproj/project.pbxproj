@@ -19,6 +19,7 @@
 		0D3532861C19288A004B4574 /* ModuleTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3532851C19288A004B4574 /* ModuleTwoVC.m */; };
 		0D3532891C1928B2004B4574 /* ModuleThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3532881C1928B2004B4574 /* ModuleThreeVC.m */; };
 		0D35328B1C19406F004B4574 /* navigation_bar_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D35328A1C19406F004B4574 /* navigation_bar_on@2x.png */; };
+		0DC64F021C19818500491AC7 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC64F011C19818500491AC7 /* BaseNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0D3532871C1928B2004B4574 /* ModuleThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleThreeVC.h; sourceTree = "<group>"; };
 		0D3532881C1928B2004B4574 /* ModuleThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleThreeVC.m; sourceTree = "<group>"; };
 		0D35328A1C19406F004B4574 /* navigation_bar_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_bar_on@2x.png"; sourceTree = "<group>"; };
+		0DC64F001C19818500491AC7 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		0DC64F011C19818500491AC7 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 		0D3532561C19179E004B4574 /* slideDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0DC64F001C19818500491AC7 /* BaseNavViewController.h */,
+				0DC64F011C19818500491AC7 /* BaseNavViewController.m */,
 				0D35327D1C1917C9004B4574 /* SUNSlideSwitchView.h */,
 				0D35327E1C1917C9004B4574 /* SUNSlideSwitchView.m */,
 				0D35325B1C19179E004B4574 /* AppDelegate.h */,
@@ -244,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3532601C19179E004B4574 /* ViewController.m in Sources */,
+				0DC64F021C19818500491AC7 /* BaseNavViewController.m in Sources */,
 				0D3532891C1928B2004B4574 /* ModuleThreeVC.m in Sources */,
 				0D3532861C19288A004B4574 /* ModuleTwoVC.m in Sources */,
 				0D35325D1C19179E004B4574 /* AppDelegate.m in Sources */,
@@ -444,6 +450,7 @@
 				0D3532791C19179F004B4574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D35327A1C19179F004B4574 /* Build configuration list for PBXNativeTarget "slideDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +459,7 @@
 				0D35327C1C19179F004B4574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
