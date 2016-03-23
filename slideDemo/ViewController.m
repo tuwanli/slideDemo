@@ -37,7 +37,7 @@
 {
     //滑动效果的添加
 
-    _slideSwitchView = [[SUNSlideSwitchView alloc] initWithFrame:CGRectMake(0, 264,k_width , k_height)];
+    _slideSwitchView = [[SUNSlideSwitchView alloc] initWithFrame:CGRectMake(0, 64,k_width , k_height)];
     [self.view addSubview:_slideSwitchView];
     _slideSwitchView.slideSwitchViewDelegate = self;
     
